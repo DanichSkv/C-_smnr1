@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+//a = 5; b = 7 -> max = 7
+//a = 2 b = 10 -> max = 10
+//a = -9 b = -3 -> max = -3
+Console.Write("Привет! Это программа сравнения двух чисел между собой! Введите первое число: ");
+int num1=Console.ReadLine();
+Console.Write("Супер! А теперь введите второе число: ");
+int num2=Console.ReadLine();
+Console.Write("Итак, если мои расчёты верны, то наибольшее число из этой пары = ");
+if (num1 > num2)
+{
+    Console.WriteLine(num1);
+}
+else
+{
+    Console.WriteLine(num2);
+}
