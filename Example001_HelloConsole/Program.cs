@@ -2,10 +2,12 @@
 //a = 5; b = 7 -> max = 7
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
+
+int num1, num2;
 Console.Write("Привет! Это программа сравнения двух чисел между собой! Введите первое число: ");
-int num1=Console.ReadLine();
+num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Супер! А теперь введите второе число: ");
-int num2=Console.ReadLine();
+num2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Итак, если мои расчёты верны, то наибольшее число из этой пары = ");
 if (num1 > num2)
 {
